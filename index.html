@@ -49,14 +49,130 @@
                         <span class="user-nav__icon-notif">13</span>
                     </div>
                     <div class="user-nav__user">
-                        <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
+                        <img
+                            src="img/user.jpg"
+                            alt="User photo"
+                            class="user-nav__user-photo"
+                        />
                         <span class="user-nav__user-name">Dani</span>
                     </div>
                 </div>
             </header>
             <div class="content">
-                <nav class="sidebar">Navigation sidebar</nav>
-                <main class="hotel-view">Hotel view</main>
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a class="side-nav__link" href="#">
+                                <svg class="side-nav__icon">
+                                    <use
+                                        xlink:href="img/sprite.svg#icon-home"
+                                    ></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a class="side-nav__link" href="#">
+                                <svg class="side-nav__icon">
+                                    <use
+                                        xlink:href="img/sprite.svg#icon-aircraft-take-off"
+                                    ></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a class="side-nav__link" href="#">
+                                <svg class="side-nav__icon">
+                                    <use
+                                        xlink:href="img/sprite.svg#icon-key"
+                                    ></use>
+                                </svg>
+                                <span>Car rental</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a class="side-nav__link" href="#">
+                                <svg class="side-nav__icon">
+                                    <use
+                                        xlink:href="img/sprite.svg#icon-map"
+                                    ></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="legal">
+                        &copy; 2021 by Dani. All right reserve.
+                    </div>
+                </nav>
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img
+                                src="img/hotel-1.jpg"
+                                alt="photo of hotel 1"
+                                class="gallery__photo"
+                            />
+                        </figure>
+                        <figure class="gallery__item">
+                            <img
+                                src="img/hotel-2.jpg"
+                                alt="photo of hotel 2"
+                                class="gallery__photo"
+                            />
+                        </figure>
+                        <figure class="gallery__item">
+                            <img
+                                src="img/hotel-3.jpg"
+                                alt="photo of hotel 3"
+                                class="gallery__photo"
+                            />
+                        </figure>
+                    </div>
+                    <div class="overview">
+                        <h1 class="overview__heading">Hotel for you</h1>
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-star"
+                                ></use>
+                            </svg>
+                        </div>
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-location-pin"
+                                ></use>
+                            </svg>
+                            <button class="btn-inline">Jakarta, Indonesia</button>
+                        </div>
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">9.9</div>
+                            <div class="overview__rating-count">429 views</div>
+                        </div>
+                    </div>
+                </main>
             </div>
         </div>
     </body>
