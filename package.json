@@ -6,7 +6,7 @@
   "scripts": {
     "watch:sass": "sass sass/main.scss css/style.css -w",
     "dev:server": "npx live-server",
-    "dev": "npm-run-all --parallel dev:server watch:sass",
+    "dev": "npm-run-all --parallel watch:sass dev:server",
     "compile:sass": "sass sass/main.scss css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
     "compress:css": "sass css/style.prefix.css css/style.min.css --style=compressed",
